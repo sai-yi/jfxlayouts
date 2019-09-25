@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.control.Button?>
+<GridPane xmlns:fx="http://javafx.com/fxml/1" hgap="10" vgap="10" alignment="CENTER" gridLinesVisible="true">
+
+<!-- 	<columnConstraints>	
+		<ColumnConstraints percentWidth="50.0" />
+		<ColumnConstraints percentWidth="50.0"/>
+	</columnConstraints>  -->
+	<!-- TODO Add Nodes -->
+	<Button text="Button One" GridPane.rowIndex="0" GridPane.columnIndex="0"></Button>
+	<Button text="Button Two" GridPane.rowIndex="0" GridPane.columnIndex="1"></Button>
+	<Button text="Button Three" GridPane.rowIndex="1" GridPane.columnIndex="0"></Button>
+	<Button text="Button Four " GridPane.rowIndex="1" GridPane.columnIndex="1"></Button>
+	<Button text="Really Long Button Five" GridPane.rowIndex="2" GridPane.columnIndex="0" GridPane.columnSpan="2" ></Button>
+</GridPane>
+

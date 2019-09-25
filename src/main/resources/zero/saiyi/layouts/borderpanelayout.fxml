@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" layoutX="10"
+	layoutY="10">
+	<!-- TODO Add Nodes -->
+	<top>
+		<Label text="This is Top of the layout "
+			BorderPane.alignment="CENTER" textFill="BLUE"
+			style="-fx-font-weight:bold;-fx-font-size:24px;">
+		</Label>
+	</top>
+	<left>
+		<Button text="Left Button" BorderPane.alignment="CENTER"
+			prefWidth="100"></Button>
+	</left>
+	<right>
+		<Button text="Right Button" BorderPane.alignment="CENTER"
+			prefWidth="100"></Button>
+	</right>
+	<center>
+		<HBox style="-fx-background-color:red;">
+			<Label text="This is center of the layout"
+				BorderPane.alignment="CENTER" textFill="BLUE"
+				style="-fx-font-weight:bold;-fx-font-family:monospace;-fx-font-size:22;">
+			</Label>
+		</HBox>
+	</center>
+	<bottom>
+		<HBox spacing="10" alignment="BOTTOM_RIGHT">
+
+			<padding>
+				<Insets bottom="10" right="10" />
+			</padding>
+
+			<Button text="OK" prefWidth="90"></Button>
+			<Button text="Cancel" prefWidth="90"></Button>
+			<Button text="Quit" prefWidth="90"></Button>
+		</HBox>
+	</bottom>
+
+
+</BorderPane>
+

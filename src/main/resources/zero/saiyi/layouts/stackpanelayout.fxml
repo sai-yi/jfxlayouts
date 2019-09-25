@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<StackPane xmlns:fx="http://javafx.com/fxml/1">
+	<!-- TODO Add Nodes -->
+	<Label text="First text" style="-fx-background-color:red;-fx-color:white;"></Label>
+	<Button text="First Button" style="-fx-background-color:green;"></Button>
+	<Label text="Second text here" style="-fx-background-color:blue;" textFill="WHITE"></Label>
+</StackPane>
+

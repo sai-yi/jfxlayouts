@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<VBox xmlns:fx="http://javafx.com/fxml/1">
+	<!-- TODO Add Nodes -->
+	<Button text="Button One"></Button>
+	<Button text="Button Two"></Button>
+	<Button text="Button Three"></Button>
+	<Button text="Button Four"></Button>
+</VBox>
+
